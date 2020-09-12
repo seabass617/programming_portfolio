@@ -33,6 +33,14 @@
   margin-top: 100px;
 }
 
+.project-window {
+  height: 90vh; 
+  text-align: center;
+  position: relative;
+  border: 2px solid red;
+
+}
+
 .project-card-home {
   max-width: 80%; 
   max-height: 80%;
