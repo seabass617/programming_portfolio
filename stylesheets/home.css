@@ -1,9 +1,6 @@
 .profile-pic { 
-  max-width: 80%; 
-  max-height: 80%;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  max-width: 100%; 
+  max-height: 100%;
 }
 
 .home-window { 
@@ -14,9 +11,14 @@
 }
 
 .intro-card {
-  color: white; 
-  border: 2px solid red;
-  margin-top: 100px;
+  color: white;
+  position: relative;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+
 }
 
 .about {
@@ -25,12 +27,26 @@
   color:white;
   width: 80%;
   margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Source Code Pro";
+  font-weight: lighter;
+}
+
+.about h3 {
+  font-family: "Source Code Pro";
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
+.about p { 
+  text-align: left;
 }
 
 .projects {
   color: white; 
   border: 2px solid red;
   margin-top: 100px;
+  font-family: "Source Code Pro";
 }
 
 .project-window {
@@ -47,4 +63,28 @@
   border-radius: 3px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#webdev {
+  font-family: "Play";
+  font-size: 30px;
+  position: relative;
+  /* left: -70px; */
+  margin-bottom: 30px;
+  
+}
+
+#createprog {
+  font-family: "Play";
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+#artist {
+  font-family: "Play";
+  font-size: 30px;
+  position: relative;
+  /* right: -130px; */
+
 }
