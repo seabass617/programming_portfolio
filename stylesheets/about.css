@@ -1,0 +1,60 @@
+.about-window { 
+  height: auto; 
+  text-align: center;
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.about {
+  position:relative;
+  /* border:2px solid red; */
+  color:white;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Source Code Pro";
+  font-weight: lighter;
+}
+
+.about h3 {
+  font-family: "Source Code Pro";
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
+.about p { 
+  text-align: left;
+
+}
+
+.bold-text { 
+  color: white;
+  font-size: 20px;
+}
+
+.mini-text { 
+  font-family: "Source Code Pro";
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.hire {
+  font-family: "Source Code Pro";
+  background-color: none;
+  border: 2px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+.hire:hover {
+  background-color: white;
+  border: 2px solid gray;
+  color: black;
+}
+
