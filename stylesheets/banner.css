@@ -1,0 +1,99 @@
+.profile-pic { 
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+#banner { 
+  height: 100vh; 
+  text-align: center;
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.title-container {
+  color: white;
+  position: relative;
+  /* border: 2px solid red; */
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 300px;
+  /* background-color: #16273B; */
+}
+
+#webdev {
+  font-family: "Play";
+  font-size: 60px;
+  position: relative;
+  /* left: -70px; */
+  margin-bottom: 30px;
+  /* border: 2px solid red; */
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation: fadeIn1 ease 4s;
+  -webkit-animation: fadeIn1 ease 4s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeIn1 {
+  from  {opacity:0;}
+  to {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn1 {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#createprog {
+  font-family: "Play";
+  font-size: 60px;
+  margin-bottom: 30px;
+  /* border: 2px solid red; */
+  opacity: 0.0;
+  animation-fill-mode: forwards;
+  animation: fadeIn2 ease 4s;
+  animation-delay: 1s;
+  -webkit-animation: fadeIn2 ease 4s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+
+
+}
+
+@keyframes fadeIn2 {
+  from  {opacity:0;}
+  to {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn2 {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#artist {
+  font-family: "Play";
+  font-size: 60px;
+  position: relative;
+  /* right: -130px; */
+  /* border: 2px solid red; */
+  opacity: 0.0;
+  animation-fill-mode: forwards;
+  animation: fadeIn3 ease 4s;
+  animation-delay: 2s;
+  -webkit-animation: fadeIn3 ease 4s;  
+  -webkit-animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeIn3 {
+  from  {opacity:0;}
+  to {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn3 {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
