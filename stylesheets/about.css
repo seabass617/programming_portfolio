@@ -2,7 +2,7 @@
   height: auto; 
   text-align: center;
   position: relative;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .about {
@@ -35,6 +35,7 @@
 .mini-text { 
   font-family: "Source Code Pro";
   color: rgba(255, 255, 255, 0.801);
+  text-align: left;
 }
 
 .hire {
