@@ -3,6 +3,7 @@
 @import "projects.css";
 @import "info.css";
 @import "components/avatar.css";
+@import "components/stackbox.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap');
 
@@ -40,6 +41,12 @@
     font-family: "Play";
   }
 
-  
+  .red-border{ 
+    border: 2px solid red;
+  }
+
+  .play-font{
+    font-family:"Play";
+  }
 
  

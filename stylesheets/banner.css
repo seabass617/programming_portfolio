@@ -2,7 +2,7 @@
   height: 100vh; 
   text-align: center;
   position: relative;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .title-container {
