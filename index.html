@@ -71,12 +71,12 @@
   <!-------------->
   <!-- PROJECTS -->
   <!-------------->
-  <div class="project-window red-border">
+  <div class="project-window red-border" id="project-section">
     <div class="container project-container">
       <h3 class="play-font mb-5">projects</h3>
       <div class="row ">
         <div class="col-lg-3 ">
-          <div class="project-image mb-3 mt-3 mr-2">Slumbot</div>
+          <a href="pages/project-page.html"><div class="project-image mb-3 mt-3 mr-2">Slumbot</div></a>
         </div>
         <div class="col-lg-3 ">
           <div class="project-image mb-3 mt-3 mr-2">Millionare</div>
@@ -105,53 +105,36 @@
   </div>
 
 
-
-  <div id="info-window" class="">
-
-    <div id="information-section">
-      <ul class="nav nav-tabs nav-fill nav-justified">
-        <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#my-stack">My Stack</a></li>
-        <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#skills">Skills</a></li>
-        <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-
-      <div class="tab-content">
-        <div id="my-stack" class="tab-pane fade in active">
-          <div class="stack-box mt-5 d-flex justify-content-around align-items-center">
-            <div class="bold-text"><p>Front End</p></div>
-            <div class="icon-box d-flex justify-content-around align-items-center">
-              <img class= "stack-icon" src="images/HTML5_Badge_256.png" alt="processing"></li>
-              <img class= "stack-icon" src="images/css3-original.svg" alt="p5.js"></li>
-              <img class= "stack-icon" src="images/javascript-logo (2).png" alt="three.js"></li>
-            </div>
-          </div>
-
-          <div class="stack-box mt-5 d-flex justify-content-around align-items-center">
-            <div class="bold-text"><p>Creative End</p></div>
-            <div class="icon-box d-flex justify-content-around align-items-center">
-              <img class= "stack-icon" src="images/256px-Processing_3_logo.png" alt="processing"></li>
-              <img class= "stack-icon" src="images/p5js.png" alt="p5.js"></li>
-              <img class= "stack-icon" src="images/threejs.png" alt="three.js"></li>
-            </div>
-          </div>
-
-          <div class="stack-box mt-5 mb-5 d-flex justify-content-around align-items-center">
-            <div class="bold-text"><p>Back End</p></div>
-            <div class="icon-box d-flex justify-content-around align-items-center">
-              <img class= "stack-icon" src="images/ruby-original.svg" alt="processing"></li>
-              <img class= "stack-icon" src="images/rails-original-wordmark.svg" alt="p5.js"></li>
-              <img class= "stack-icon" src="images/postgresql-original.svg" alt="three.js"></li>
-            </div>
-          </div>
-
+  <!-------------->
+  <!-- My Stack -->
+  <!-------------->
+  <div id="info-window" class="red-border">
+    <div class="container info-container">
+      <h3 class="play-font mb-5">My Stack</h3>
+      <div class="stack-box mt-5 d-flex justify-content-around align-items-center">
+        <div class="bold-text"><p>Front End</p></div>
+        <div class="icon-box d-flex justify-content-around align-items-center">
+          <img class= "stack-icon" src="images/HTML5_Badge_256.png" alt="html"></li>
+          <img class= "stack-icon" src="images/css3-original.svg" alt="css"></li>
+          <img class= "stack-icon" src="images/javascript-logo (2).png" alt="javascript" style="width: 13%;"></li>
         </div>
-        <div id="skills" class="tab-pane fade">
-          <h3>My Skills</h3>
-          <p>Here are my skills</p>
+      </div>
+
+      <div class="stack-box mt-5 d-flex justify-content-around align-items-center">
+        <div class="bold-text"><p>Creative End</p></div>
+        <div class="icon-box d-flex justify-content-around align-items-center">
+          <img class= "stack-icon" src="images/256px-Processing_3_logo.png" alt="processing" style="width: 18%;"></li>
+          <img class= "stack-icon" src="images/p5js.png" alt="p5.js"></li>
+          <img class= "stack-icon" src="images/threejs.png" alt="three.js" style="width: 14%;"></li>
         </div>
-        <div id="contact" class="tab-pane fade">
-          <h3>Contact</h3>
-          <p>Reach out!</p>
+      </div>
+
+      <div class="stack-box mt-5 d-flex justify-content-around align-items-center">
+        <div class="bold-text"><p>Back End</p></div>
+        <div class="icon-box d-flex justify-content-around align-items-center">
+          <img class= "stack-icon" src="images/ruby-original.svg" alt="ruby" style="width: 25%; margin-left:20%; margin-right:10%;"></li>            
+          <img class= "stack-icon" src="images/rails-original-wordmark.svg" alt="rails" style="width: 25%; margin-left:10%; margin-right:10%;"></li>           
+          <img class= "stack-icon" src="images/postgresql-original.svg" alt="postgres" style="width: 25%; margin-left:10%; margin-right:20%;"></li>            
         </div>
       </div>
 
@@ -165,8 +148,6 @@
     <p>Github</p>
     <p>Contact</p>
   </div>
-  
-
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

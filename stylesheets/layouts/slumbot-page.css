@@ -1,0 +1,35 @@
+#project-page-header {
+  border-bottom: 1px solid white;
+  height: 80px;
+}
+
+.project-page-container {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.back-button {
+  display:inline-block;
+  padding: 27px 0;
+}
+
+.project-photos {
+  text-align: center;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.project-page-image { 
+  width: 100%;
+}
+
+.project-description h3 {
+  border-bottom: 1px white solid;
+  padding: 10px;
+}
+
+.project-description p { 
+  text-align: left;
+}

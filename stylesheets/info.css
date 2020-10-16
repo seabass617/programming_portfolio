@@ -1,7 +1,17 @@
 #info-window {
   height: 100vh;
   width: 100%;
+  text-align: center;
   /* border: 2px solid red; */
+}
+
+.info-container {
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  color: white;
+  margin-top: 125px;
+  font-family: "Source Code Pro";
+  margin-bottom: 50px;
 }
 
 #information-section{ 
