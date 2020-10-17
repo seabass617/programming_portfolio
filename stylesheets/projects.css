@@ -34,49 +34,361 @@
   background-color: rgba(0,0,0,0.25);
 } */
 
-.project-image {
-   width: 250px;
-   height: 250px;
-   position:relative;
-   display:block;
-   color:transparent;
-   text-align: center; 
-   padding: 125px 0;
-   transition: color 0.3s;
-}
-
-.project-image::after {
-  content: "";
-  background: url("../images/Slumbot\ 1.2.jpg");
-  background-size: cover;
-  background-position: center;
-  top: 0;
-  left: 0;
-  bottom: 0; 
-  right: 0;
-  position: absolute;
-  z-index:-1;
-  transition: opacity 0.3s;
-}
-
-.project-image:hover {
-  color:whitesmoke;
-}
-
-.project-image:hover::after {
-  opacity: 40%;
-  content: "";
-  background: url("../images/Slumbot\ 1.2.jpg");
-  background-size: cover;
-  background-position: center;
-  top: 0;
-  left: 0;
-  bottom: 0; 
-  right: 0;
-  position: absolute;
-  z-index:-1;
-}
 
 a {
   text-decoration: none !important;
+}
+
+
+/* Project images */
+/* slumbot */
+.project-image-slumbot {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-slumbot::after {
+ content: "";
+ background: url("../images/Slumbot\ 1.2.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-slumbot:hover {
+ color:whitesmoke;
+}
+
+.project-image-slumbot:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/Slumbot\ 1.2.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+}
+
+/* multiverse */
+.project-image-multiverse {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-multiverse::after {
+ content: "";
+ background: url("../images/Dream\ Mutliverse\ Vacation.png");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-multiverse:hover {
+ color:whitesmoke;
+}
+
+.project-image-multiverse:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/Dream\ Mutliverse\ Vacation.png");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+}
+
+/* RPM Controller */
+.project-image-rpm {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-rpm::after {
+ content: "";
+ background: url("../images/_KZA9128.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-rpm:hover {
+ color:whitesmoke;
+}
+
+.project-image-rpm:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/_KZA9128.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+}
+
+/* Indigenius */
+.project-image-indigenius {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-indigenius::after {
+ content: "";
+ background: url("../images/indigenius-thumbnail.png");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-indigenius:hover {
+ color:whitesmoke;
+}
+
+.project-image-indigenius:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/indigenius-thumbnail.png");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+}
+
+/* Matrix */
+.project-image-matrix {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-matrix::after {
+ content: "";
+ background: url("../images/matrix.png");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-matrix:hover {
+ color:whitesmoke;
+}
+
+.project-image-matrix:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/matrix.png");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+}
+
+/* Glass */
+.project-image-glass {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-glass::after {
+ content: "";
+ background: url("../images/Carrie\ Bowl\ 3-3.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-glass:hover {
+ color:whitesmoke;
+}
+
+.project-image-glass:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/Carrie\ Bowl\ 3-3.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+}
+
+/* multiples */
+.project-image-multiples {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-multiples::after {
+ content: "";
+ background: url("../images/Armadillidiidae\ Hirundea\ 1.0.JPG");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-multiples:hover {
+ color:whitesmoke;
+}
+
+.project-image-multiples:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/Armadillidiidae\ Hirundea\ 1.0.JPG");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+}
+
+/* XROMM */
+.project-image-xromm {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  display:block;
+  color:transparent;
+  text-align: center; 
+  padding: 125px 0;
+  transition: color 0.3s;
+}
+
+.project-image-xromm::after {
+ content: "";
+ background: url("../images/E5DB26C7-3BB7-4691-B420-56241194E439.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
+ transition: opacity 0.3s;
+}
+
+.project-image-xromm:hover {
+ color:whitesmoke;
+}
+
+.project-image-xromm:hover::after {
+ opacity: 40%;
+ content: "";
+ background: url("../images/E5DB26C7-3BB7-4691-B420-56241194E439.jpg");
+ background-size: cover;
+ background-position: center;
+ top: 0;
+ left: 0;
+ bottom: 0; 
+ right: 0;
+ position: absolute;
+ z-index:-1;
 }

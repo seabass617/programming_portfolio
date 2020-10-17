@@ -1,11 +1,13 @@
 #project-page-header {
   border-bottom: 1px solid white;
   height: 80px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .project-page-container {
-  margin-right: 35px;
-  margin-left: 35px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .back-button {
