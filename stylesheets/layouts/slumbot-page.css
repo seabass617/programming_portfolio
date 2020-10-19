@@ -32,6 +32,13 @@
   padding: 10px;
 }
 
+
+.project-description h1 {
+  border-bottom: 1px white solid;
+  padding: 10px;
+  text-align: left;
+}
+
 .project-description p { 
   text-align: left;
 }
