@@ -1,0 +1,48 @@
+#project-page-header {
+  border-bottom: 1px solid white;
+  height: 80px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.project-page-container {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.back-button {
+  display:inline-block;
+  padding: 27px 0;
+}
+
+.back-button:hover {
+  color: lightslategray;
+}
+
+
+.project-photos {
+  text-align: center;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.project-page-image { 
+  width: 100%;
+}
+
+.project-description h3 {
+  border-bottom: 1px white solid;
+  padding: 10px;
+}
+
+.project-description h1 {
+  border-bottom: 1px white solid;
+  padding: 10px;
+  text-align: left;
+}
+
+.project-description p { 
+  text-align: left;
+}

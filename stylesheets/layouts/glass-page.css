@@ -1,0 +1,13 @@
+.vertical-glass-img {
+  width: 30%;
+  align-self: center;
+}
+
+.trio { 
+  height: 600px;
+}
+
+.vertical-video-container {
+  background-color: darkgray;
+  width: 300px;
+}
