@@ -1,13 +1,66 @@
-.vertical-glass-img {
-  width: 30%;
-  align-self: center;
-}
-
-.trio { 
-  height: 600px;
-}
-
 .vertical-video-container {
   background-color: darkgray;
-  width: 300px;
+  width: 450px;
+  margin:0 auto;
+}
+
+.slider-container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+/* Regular Laptop */
+@media (max-width: 1024px) {
+  .vertical-video-container{
+    width: 425px;
+  }
+
+  .slider-container{
+    width: 425px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .vertical-video-container{
+    width: 400px;
+  }
+
+  .slider-container{
+    width: 400px;
+  }
+}
+/* Large Phone */
+
+@media (max-width: 520px) {
+  .vertical-video-container{
+    width: 300px;
+  }
+
+  .slider-container{
+    width: 300px;
+  }
+}
+
+/* Phone */
+@media (max-width: 400px) {
+  .vertical-video-container{
+    width: 275px;
+  }
+
+  .slider-container{
+    width: 275px;
+  }
+}
+
+/* Small Phone */
+
+@media (max-width: 350px) {
+  .vertical-video-container{
+    width: 240px;
+  }
+
+  .slider-container{
+    width: 240px;
+  }
 }
