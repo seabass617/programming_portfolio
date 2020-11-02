@@ -16,26 +16,31 @@
   <!-- p5 -->
   <script src="p5.js"></script>
   <script src="sketch.js"></script>
+
+  <!-- Animate on Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-  <!------------>
-  <!-- BANNER -->
-  <!------------>
-  <section id="banner" class="red-border">
+  <div id="page-container">
+    <div id="content-wrap">
+      <!------------>
+      <!-- BANNER -->
+      <!------------>
+      <section id="banner" class="red-border">
     <!-- <img class = "profile-pic" src="images/Seattle Profile Picture.jpg" alt="Face shot of Sebastian"> -->
     <div class="title-container">
       <h2 id ="webdev"> web developer </h2>
       <h2 id ="createprog"> creative programmer </h2>
       <h2 id = "artist"> artist </h2>
     </div>
-  </section>
+      </section>
 
 
-  <!----------->
-  <!-- ABOUT -->
-  <!----------->
-  <div class="about-window red-border">
+      <!----------->
+      <!-- ABOUT -->
+      <!----------->
+      <div class="about-window red-border">
     <div class="about">
       <p class = "mt-5 bold-text">Hi, my name is Sebastian. I'm a programmer living
         in Boston and I love creative coding, art, and science.
@@ -65,13 +70,13 @@
     
       <div class="hire mt-5 mb-5">Hire me</div>
     </div>
-  </div>
+      </div>
 
 
-  <!-------------->
-  <!-- PROJECTS -->
-  <!-------------->
-  <div class="project-window red-border" id="project-section">
+      <!-------------->
+      <!-- PROJECTS -->
+      <!-------------->
+      <div class="project-window red-border" id="project-section">
     <div class="container project-container">
       <h3 class="play-font mb-5">projects</h3>
       <div class="row ">
@@ -97,17 +102,17 @@
           <a href="pages/project-multiples.html"><div class="project-image-multiples mb-3 mt-3 mr-2">Armadillidiidae Hirundea</div></a>
         </div>
         <div class="col-lg-3 ">
-          <a href="pages/project-xromm.html"><div class="project-image-xromm mb-3 mt-3 mr-2">Toad Research</div></a>
+          <a href="pages/project-xromm.html"><div class="project-image-xromm mb-3 mt-3 mr-2"> Research: XROMM Cane Toads</div></a>
         </div>
       </div>
     </div>
-  </div>
+      </div>
 
 
-  <!-------------->
-  <!-- My Stack -->
-  <!-------------->
-  <div id="info-window" class="red-border">
+      <!-------------->
+      <!-- My Stack -->
+      <!-------------->
+      <div id="info-window" class="red-border">
     <div class="container info-container">
       <h3 class="play-font mb-5">My Stack</h3>
       <div class="stack-box mt-5 d-flex justify-content-around align-items-center">
@@ -138,19 +143,39 @@
       </div>
 
     </div>
-  </div>
+      </div>
 
+      <!-------------->
+      <!-- CV -->
+      <!-------------->
+      <div id="cv-window" class="red-border">
+        <div class="container cv-container">
+          <a href="pages/cv-page.html"><div id="cv-icon" data-aos="flip-left">
+            <div id="cv-icon-text">CV</div>
+            <div class="cv-icon-bar"></div>
+            <div class="cv-icon-bar"></div>
+            <div class="cv-icon-bar"></div>
+          </div></a>
+        
+        </div>
+      </div>
+
+
+    </div>
   
-
-  <div class="footer">
-    <p>CV</p>
-    <p>Github</p>
-    <p>Contact</p>
+    <div id="footer"><p>Copyright & Design © Sebastian Viasus 2020</p></div>
+  
   </div>
+  
+  
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

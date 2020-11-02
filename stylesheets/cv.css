@@ -1,0 +1,53 @@
+#cv-window { 
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.cv-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#cv-icon { 
+  text-align: center;
+  width: 300px;
+  height: 390px;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 30% auto;
+  color:white;
+}
+
+#cv-icon:hover { 
+  border-color: peachpuff;
+  color: peachpuff;
+}
+
+#cv-icon:hover .cv-icon-bar{
+  background-color:peachpuff;
+}
+
+#cv-icon-text { 
+  font-family: "Fjalla One", sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  color: inherit;
+  margin-top: 30%;
+  margin-bottom: 20px;
+}
+
+.cv-icon-bar{ 
+  width: 80%;
+  margin: 10px auto;
+  height: 20px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.cv-container a { 
+  text-decoration: none;
+}
+

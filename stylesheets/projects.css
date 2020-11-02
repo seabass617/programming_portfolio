@@ -363,7 +363,7 @@ a {
 
 .project-image-xromm::after {
  content: "";
- background: url("../images/E5DB26C7-3BB7-4691-B420-56241194E439.jpg");
+ background: url("../images/xromm/Toad\ Radiounla\ Clean\ \(resized\).jpg");
  background-size: cover;
  background-position: center;
  top: 0;
@@ -382,7 +382,7 @@ a {
 .project-image-xromm:hover::after {
  opacity: 40%;
  content: "";
- background: url("../images/E5DB26C7-3BB7-4691-B420-56241194E439.jpg");
+ background: url("../images/xromm/Toad\ Radiounla\ Clean\ \(resized\).jpg");
  background-size: cover;
  background-position: center;
  top: 0;

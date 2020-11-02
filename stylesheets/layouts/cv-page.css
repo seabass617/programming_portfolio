@@ -1,0 +1,79 @@
+.no-margin {
+  margin-left:0px;
+  margin-right:0px;
+}
+
+
+/* type of experience */
+p.cv-type {
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  padding: 0px;
+  text-align: left;
+  font-family: "Source Code Pro";
+
+}
+.cv-section {
+  padding: 0px;
+}
+
+/* a cv item ( a job entry) */
+.cv-item {
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+/* heading */
+.cv-heading {
+  text-align: left;
+}
+
+p.cv-header {
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+p.cv-subheader {
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+/* heading details */
+.cv-heading-details { 
+  vertical-align: bottom;
+  padding-top: 5px;
+}
+
+p.cv-heading-details {
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+  text-align: right;
+  font-weight: 300;
+}
+
+/* job descrition */
+p.cv-description {
+  padding-top: 10px;
+  margin: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.cv-divider{
+  border-top: 2px solid gray;
+
+  
+}
+
+
+
+
+
