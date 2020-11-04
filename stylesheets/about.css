@@ -39,6 +39,8 @@
 }
 
 .hire {
+  text-decoration: none !important;
+  display: inline-block;
   font-family: "Source Code Pro";
   background-color: none;
   border: 2px solid white;
@@ -46,6 +48,7 @@
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  color:white;
   
   width: 40%;
   margin: 0 auto;
