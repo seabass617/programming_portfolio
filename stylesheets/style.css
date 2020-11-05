@@ -1,11 +1,12 @@
 @import "banner.css"; 
 @import "about.css";
 @import "projects.css";
-@import "info.css";
-@import "cv.css";
+@import "stack.css";
+@import "cv_contact.css";
 @import "contact.css";
 @import "components/avatar.css";
 @import "components/stackbox.css";
+@import "test.css";
 
 @import "layouts/project-page.css";
 @import "layouts/slumbot-page.css";
@@ -28,11 +29,20 @@
     box-sizing: border-box;
   }
 
+  :root {
+    --plum: #641B1B;
+    --gunmetal: #16262E;
+    --tangerine: #FF9664;
+    --steelblue: #4F7CAC;
+    --purple: #4B4CA4;
+    --gray: #D1DEDE;
+  }
+
   body {
     padding: 0;
     margin: 0;
     /* overflow: hidden; */
-    background: black;
+    background: var(--gunmetal);
   }
 
   p {
@@ -83,5 +93,9 @@
     color: white; 
     padding: 20px;
     border-top: 1px solid grey;
+  }
+
+  section { 
+    height: 100vh;
   }
  

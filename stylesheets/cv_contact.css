@@ -1,13 +1,17 @@
-#cv-window { 
+.vert-center {
+  padding-top:20%;
+}
+
+
+#cv_contact-window { 
   height: 100vh;
   width: 100%;
   text-align: center;
+  background-color: rgb(27, 100, 27);
   /* border: 2px solid red; */
 }
 
-.cv-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.cv_contact-container {
 }
 
 #cv-icon { 
@@ -18,7 +22,7 @@
   border-radius: 10px;
   margin: 0 auto;
   color:white;
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 
 #cv-icon:hover { 
@@ -49,5 +53,32 @@
 
 .cv-container a { 
   text-decoration: none;
+}
+
+
+/* contact */
+
+
+
+
+#contact-icons {
+  width: 40%;
+  margin : 20px auto;
+}
+
+#contact-title {
+  color:white;
+  margin-top: 20%;
+}
+
+.email-icon, .github-icon, .linkedin-icon {
+  font-size: 48px;
+  color: white;
+  text-decoration: none;
+}
+
+.email-icon:hover, .github-icon:hover, .linkedin-icon:hover {
+  font-size: 48px;
+  color: peachpuff;
 }
 

@@ -1,9 +1,14 @@
 .about-window { 
-  height: auto; 
+  height: auto !important;
   text-align: center;
   position: relative;
+  background-color: black;
+  background-image: linear-gradient(black, var(--purple));
+  padding: 50px;
+  border-top: 10px double var(--gray);
   /* margin-top: 200px; */
-  /* border: 2px solid red; */
+  /* border: 1px solid rgb(27,27,27); */
+  /* overflow: hidden; */
 }
 
 .about {
@@ -12,7 +17,7 @@
   color:white;
   width: 80%;
   margin: 0 auto;
-  margin-top: 30px;
+  top: 10%;
   font-family: "Source Code Pro";
   font-weight: lighter;
 }

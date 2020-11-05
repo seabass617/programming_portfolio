@@ -1,0 +1,23 @@
+#stack-window {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.stack {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.stack-icon {
+
+}
+
+.stack-container {
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  color: white;
+  font-family: "Source Code Pro";
+}
+
+
+
