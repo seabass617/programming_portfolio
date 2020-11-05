@@ -32,9 +32,11 @@
   :root {
     --plum: #641B1B;
     --gunmetal: #16262E;
-    --tangerine: #FF9664;
+    --tangerine: #e98847;
     --steelblue: #4F7CAC;
-    --purple: #4B4CA4;
+    --charcoal: #33475B;
+    --purple: #B400F5;
+    --darkpurple: #4A1942;
     --gray: #D1DEDE;
   }
 
@@ -42,7 +44,7 @@
     padding: 0;
     margin: 0;
     /* overflow: hidden; */
-    background: var(--gunmetal);
+    background: black;
   }
 
   p {

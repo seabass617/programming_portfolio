@@ -4,14 +4,15 @@
 
 
 #cv_contact-window { 
-  height: 100vh;
+  height: auto;
   width: 100%;
   text-align: center;
-  background-color: rgb(27, 100, 27);
+  background-color: black;
   /* border: 2px solid red; */
 }
 
 .cv_contact-container {
+  margin-bottom: 200px;
 }
 
 #cv-icon { 

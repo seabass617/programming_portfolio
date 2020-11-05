@@ -1,0 +1,65 @@
+#test-project-window {
+  height: auto;
+  background-color: black;
+  
+  
+
+
+}
+
+#test-project-container{
+  text-align: center;
+}
+
+#card-container{
+  width: 70%;
+  margin: 0 auto;
+}
+#test-project-container h3 {
+  color: white;
+  font-size: 60px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-bottom: 3px double var(--gray);
+}
+
+/* project card */
+.test-project-card {
+  width: 70%;
+}
+
+
+/* project image */
+
+.test-project-image{
+  width:250px;
+  height:250px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid var(--darkpurple);
+}
+
+
+
+/* project text */
+.test-project-info {
+  text-align: left;
+  margin-left: 40px;
+  font-family: "Source Code Pro";
+  width: 50%;
+}
+
+.test-project-title {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.test-project-type {
+  color: white;
+  opacity: .8;
+  margin-bottom: 20px;
+}
+

@@ -1,6 +1,10 @@
 #stack-window {
   text-align: center;
   padding-top: 100px;
+  height: auto;
+  background-color: black;
+  border-top: 10px double var(--gunmetal);
+
 }
 
 .stack {
@@ -17,6 +21,9 @@
   /* margin-right: 100px; */
   color: white;
   font-family: "Source Code Pro";
+  border: 10px double white;
+  padding: 5rem;
+  border-radius: 15px;
 }
 
 
