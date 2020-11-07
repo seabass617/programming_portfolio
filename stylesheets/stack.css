@@ -21,10 +21,15 @@
   /* margin-right: 100px; */
   color: white;
   font-family: "Source Code Pro";
-  border: 10px double white;
+  border: 10px double var(--skypink);
   padding: 5rem;
   border-radius: 15px;
 }
 
+.stack-container h3 {
+  padding-bottom: 30px;
+  border-bottom: 3px double white;
+  font-size: 35px;
+}
 
 

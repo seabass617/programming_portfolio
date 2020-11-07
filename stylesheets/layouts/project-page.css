@@ -1,5 +1,5 @@
 #project-page-header {
-  border-bottom: 1px solid white;
+  border-bottom: 4px solid var(--gunmetal);
   height: 80px;
   padding-right: 10%;
   padding-left: 10%;
@@ -45,4 +45,12 @@
 
 .project-description p { 
   text-align: left;
+}
+
+.link { 
+  color:var(--steelblue);
+}
+
+.link:hover { 
+  color: grey;
 }

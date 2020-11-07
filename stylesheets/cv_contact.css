@@ -63,23 +63,24 @@
 
 
 #contact-icons {
-  width: 40%;
+  width: 50%;
   margin : 20px auto;
 }
 
 #contact-title {
   color:white;
   margin-top: 20%;
+  font-size: 40px;
 }
 
 .email-icon, .github-icon, .linkedin-icon {
-  font-size: 48px;
+  font-size: 60px;
   color: white;
   text-decoration: none;
 }
 
 .email-icon:hover, .github-icon:hover, .linkedin-icon:hover {
-  font-size: 48px;
+  font-size: 60px;
   color: peachpuff;
 }
 
