@@ -3,6 +3,28 @@
   margin-right:0px;
 }
 
+#cv-page-header {
+  border-bottom: 4px solid var(--gunmetal);
+  height: 80px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.cv-page-container {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.back-button {
+  display:inline-block;
+  padding: 27px 0;
+}
+
+.back-button:hover {
+  color: lightslategray;
+}
+
+
 
 /* type of experience */
 p.cv-type {
@@ -69,9 +91,29 @@ p.cv-description {
 
 .cv-divider{
   border-top: 2px solid grey;
+}
+
+@media (max-width: 768px) {
+  .cv-page-container {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .cv-type {
+    text-decoration: underline;
+
+  }
 
   
 }
+
+@media (max-width: 576px) {
+  .cv-heading-details p {
+    text-align:left;
+  }
+  
+}
+
 
 
 
