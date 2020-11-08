@@ -69,3 +69,22 @@
   color: black;
 }
 
+#more {
+  display: none;
+}
+
+
+@media (max-width:375px) {
+  #more {
+    display: block;
+  }
+  #more-about {
+    display: none;
+  }
+  
+  #slogan {
+    font-size: 27px;
+  }
+}
+
+

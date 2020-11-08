@@ -70,3 +70,48 @@
   font-size: 16px;
 }
 
+@media (max-width: 1024px) {
+  .test-project-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #test-project-container h3{
+    width: 65%;
+  }
+}
+
+@media (max-width: 375px) {
+  #test-project-container h3{
+    font-size: 31px;
+    width: 70%;
+  }
+
+  #card-container {
+    width: 80%;
+  }
+
+  .test-project-title {
+    font-size: 14px;
+  }
+
+  .test-project-type {
+    font-size: 14px;
+  }
+
+  .test-project-image {
+    width: 115px;
+    height: 115px;
+  }
+
+  .test-project-description {
+    display: none;
+  }
+
+  .test-project-info {
+    margin-left: 15px;
+  }
+
+}

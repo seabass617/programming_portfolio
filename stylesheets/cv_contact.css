@@ -68,7 +68,7 @@
 }
 
 #contact-title {
-  color:white;
+  color: var(--skypink);
   margin-top: 20%;
   font-size: 40px;
 }
@@ -82,5 +82,27 @@
 .email-icon:hover, .github-icon:hover, .linkedin-icon:hover {
   font-size: 60px;
   color: peachpuff;
+}
+
+@media (max-width: 768px) {
+  .vertical-flex{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cv-icon {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  #cv-icon {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #contact-icons {
+    width: 66%;
+  }
 }
 

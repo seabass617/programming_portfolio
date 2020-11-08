@@ -17,6 +17,11 @@
   <script src="p5.js"></script>
   <script src="sketch.js"></script>
 
+  <!--Javascript-->
+  <script src="about.js"></script>
+
+
+
   <!-- Animate on Scroll -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -48,7 +53,7 @@
       <!----------->
       <section class="about-window">
       <div class="about">
-        <p class = "bold-text mt-5">Hi, my name is Sebastian. I'm a developer living
+        <p class = "bold-text mt-5" id="slogan">Hi, my name is Sebastian. I'm a developer living
           in Boston and I love art, science, and creative coding.
         </p>
         <img data-aos="flip-left" class="avatar" src="images/Seattle Profile Picture.jpg" alt="My Avatar">
@@ -60,20 +65,23 @@
           and the natural world and how these two can influence, interact, and inspire each other
           through space, time, and the senses.
         </p>
-        <p class="mini-text">
-        Before the bootcamp, I worked as a project engineer for a general
-        contractor in Seattle and was an apprentice glassblower.
-        In college, I programmed arduino controllers which helped model
-        the oceanic flow of Europa, reconstructed and animated cane toad
-        bones in Maya, and made a dystopian robot head out of recycled car
-        parts. In my free time, I like to rock climb, cook, and play guitar. 
-        </p>
-        <p class="mini-text">
-        If you want to learn more about me, please take a look at my <a href="#test-project-container" class="link">projects</a> and <a href="pages/cv-page.html" class="link">cv</a>. 
-        </p>
-        <p class="mini-text">
-        I’m also currently on the job hunt looking for front end and creative coding opportunities!
-        </p>
+        <p id="more" onclick="myFunction()" class="link">learn more</p>
+        <div id="more-about">
+          <p class="mini-text">
+          Before the bootcamp, I worked as a project engineer for a general
+          contractor in Seattle and was an apprentice glassblower.
+          In college, I programmed arduino controllers which helped model
+          the oceanic flow of Europa, reconstructed and animated cane toad
+          bones in Maya, and made a dystopian robot head out of recycled car
+          parts. In my free time, I like to rock climb, cook, and play guitar. 
+          </p>
+          <p class="mini-text">
+          If you want to learn more about me, please take a look at my <a href="#test-project-container" class="link">projects</a> and <a href="pages/cv-page.html" class="link">cv</a>. 
+          </p>
+          <p class="mini-text">
+          I’m also currently on the job hunt looking for front end and creative coding opportunities!
+          </p>
+        </div>
         </div>
       </section>
 
@@ -121,62 +129,62 @@
           <h3 class="play-font">projects</h3>
           <div id="card-container" class="row">
 
-            <div class="col-sm-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-5 mb-4 ">
                 <img class="test-project-image " src="images/indigenius-thumbnail.png" alt="project-image">
                 <div class="test-project-info">
                   <a href="pages/project-indi.html"><h4 class="test-project-title"> Indigenius</h4></a>
-                  <h5 class="test-project-type">Web Development (Ruby on Rails)</h5>
+                  <h5 class="test-project-type">Web Development</h5>
                   <p class="test-project-description">Connecting authentic artisans to ethical consumers around the globe</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
                 <img class="test-project-image " src="images/Dream Mutliverse Vacation.png" alt="project-image">
                 <div class="test-project-info">
                 <a href="pages/project-dream-multiverse.html"><h4 class="test-project-title">Dream Mutiverse Vacation </h4></a>
-                  <h5 class="test-project-type">Web Development (Ruby on Rails)</h5>
+                  <h5 class="test-project-type">Web Development</h5>
                   <p class="test-project-description">Choose a dream vacation to one of the many multiverses in the Rick & Morty Universe!</p>
                 </div>
               </div>
             </div>
             
-            <div class="col-sm-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
                 <img class="test-project-image " src="images/matrix.png" alt="project-image">
                 <div class="test-project-info">
                   <a href="pages/project-matrix.html"><h4 class="test-project-title">Matrix Smulation</h4></a>
-                  <h5 class="test-project-type">Creative Programming (p5.js)</h5>
+                  <h5 class="test-project-type">Creative Programming</h5>
                   <p class="test-project-description">An exploration of OOP through the visual lens of p5.js</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
                 <img class="test-project-image " src="images/_KZA9128.jpg" alt="project-image">
                 <div class="test-project-info">
                   <a href="pages/project-rpm.html"><h4 class="test-project-title">RPM Contoller</h4></a>
-                  <h5 class="test-project-type">Programming (Arduino), Engineering</h5>
+                  <h5 class="test-project-type">Programming, Engineering</h5>
                   <p class="test-project-description">An RPM controller used to model the oceanic flow of Europa</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
                 <img class="test-project-image " src="images/xromm/Toad Radiounla Clean (resized).jpg" alt="project-image">
                 <div class="test-project-info">
                   <a href="pages/project-xromm.html"><h4 class="test-project-title">XROMM: Cane Toad Biomechanics</h4></a>
-                  <h5 class="test-project-type">Modeling & Computer Animation (MeshLab, Maya)</h5>
+                  <h5 class="test-project-type">Modeling & Computer Animation</h5>
                   <p class="test-project-description">Animating cane toad bones in order to study limb mechanics</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
                 <img class="test-project-image " src="images/Carrie Bowl 3-3.jpg" alt="project-image">
                 <div class="test-project-info">
@@ -187,23 +195,23 @@
               </div>
             </div>
 
-            <div class="col-sm-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
                 <img class="test-project-image " src="images/Slumbot 1.2.jpg" alt="project-image">
                 <div class="test-project-info">
                   <a href="pages/project-slumbot.html"><h4 class="test-project-title">Slumbot</h4></a>
-                  <h5 class="test-project-type">Sculpture (Recycled Metal)</h5>
+                  <h5 class="test-project-type">Sculpture</h5>
                   <p class="test-project-description">A passion project driven by my interest in cars, dystopian futures, and recycled materials</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-12 test-project-card mb-5 " data-aos="fade-right">
+            <div class="col-12 test-project-card mb-5 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
                 <img class="test-project-image " src="images/Armadillidiidae Hirundea 1.0.JPG" alt="project-image">
                 <div class="test-project-info">
                   <a href="pages/project-multiples.html"><h4 class="test-project-title">Armadilldiidae Hirundea</h4></a>
-                  <h5 class="test-project-type">Sculpture (Cement)</h5>
+                  <h5 class="test-project-type">Sculpture</h5>
                   <p class="test-project-description">A multiples project focused on the power of numbers and an interest in biology</p>
                 </div>
               </div>
@@ -220,23 +228,26 @@
       <section id="stack-window">
         <div data-aos="zoom-in" class="container stack-container">
           <h3 class="play-font mb-5">My Stack</h3>
+          <div id="small-stack-title" class="bold-text stack-title"><p>Front End</p></div>
           <div class="row align-items-center justify-content-around mb-3 stack ">
-            <div class="bold-text"><p>Front End</p></div>
-            <img class= "col-md-2  stack-icon" src="images/HTML5_Badge_256.png" alt="html">
-            <img class= "col-md-2  stack-icon" src="images/css3-original.svg" alt="css">
-            <img class= "col-md-2  stack-icon" src="images/javascript-logo (2).png" alt="javascript" style="max-width:15%;">
+            <div class="bold-text stack-title"><p>Front End</p></div>
+            <img class= "col-4 col-md-3 col-lg-2  stack-icon" src="images/HTML5_Badge_256.png" alt="html">
+            <img class= "col-4 col-md-3 col-lg-2  stack-icon" src="images/css3-original.svg" alt="css">
+            <img class= "col-4 col-md-3 col-lg-2  stack-icon" src="images/javascript-logo (2).png" alt="javascript" id="javascript-icon">
           </div>
+          <div id="small-stack-title" class="bold-text stack-title"><p>Creative End</p></div>
           <div class="row align-items-center justify-content-around mb-3 stack ">
-            <div class="bold-text"><p>Creative End</p></div>
-            <img class= "col-md-2  stack-icon" src="images/256px-Processing_3_logo.png" alt="processing" style="max-width:17.5%;">
-            <img class= "col-md-2  stack-icon" src="images/p5js.png" alt="p5.js">
-            <img class= "col-md-2  stack-icon" src="images/threejs.png" alt="three.js">
+            <div class="bold-text stack-title"><p>Creative End</p></div>
+            <img class= "col-4 col-md-2 col-lg-2 stack-icon" src="images/256px-Processing_3_logo.png" alt="processing" id="processing-icon">
+            <img class= "col-4 col-md-2 col-lg-2 stack-icon" src="images/p5js.png" alt="p5.js" id="p5-icon">
+            <img class= "col-4 col-md-2 col-lg-2 stack-icon" src="images/threejs.png" alt="three.js" id="three-icon">
           </div>
+          <div id="small-stack-title" class="bold-text stack-title"><p>Back End</p></div>
           <div class="row align-items-center justify-content-around mb-3 stack ">
-            <div class="bold-text"><p>Back End</p></div>
-            <img class= "col-md-2  stack-icon" src="images/ruby-original.svg" alt="ruby" style="max-width:15%;">        
-            <img class= "col-md-2  stack-icon" src="images/rails-original-wordmark.svg" alt="rails">        
-            <img class= "col-md-2  stack-icon" src="images/postgresql-original.svg" alt="postgres">
+            <div class="bold-text stack-title"><p>Back End</p></div>
+            <img class= "col-4 col-md-3 col-lg-2 stack-icon" src="images/ruby-original.svg" alt="ruby">        
+            <img class= "col-4 col-md-3 col-lg-2 stack-icon" src="images/rails-original-wordmark.svg" alt="rails">        
+            <img class= "col-4 col-md-3 col-lg-2 stack-icon" src="images/postgresql-original.svg" alt="postgres">
           </div>
         </div>
       </section>
@@ -247,7 +258,7 @@
       <!-------------->
       <section id="cv_contact-window" class="">
         <div class="container cv_contact-container">
-          <div class="row vert-center">
+          <div class="row vert-center vertical-flex">
             <div class="col-md-6">
               <a href="pages/cv-page.html"><div id="cv-icon" data-aos="flip-left">
                 <div id="cv-icon-text">CV</div>
@@ -283,9 +294,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  <script>AOS.init();</script>
 </body>
 
 </html>

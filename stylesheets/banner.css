@@ -7,7 +7,7 @@
 }
 
 .title-container {
-  color: white;
+  color: var(--skypink);
   position: relative;
   /* border: 2px solid red; */
   text-align: left;
@@ -92,4 +92,27 @@
 @-webkit-keyframes fadeIn3 {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+
+
+/* Regular Laptop */
+@media (max-width: 1024px) {
+  #webdev, #createprog, #artist {
+    font-size:48px;
+  }
+
+  .title-container {
+    top: 45%;
+  }
+}
+
+/* Regular Laptop */
+@media (max-width: 375px) {
+  #webdev, #createprog, #artist {
+    font-size:30px;
+  }
+
+  .title-container {
+    top: 45%;
+  }
 }
