@@ -6,6 +6,10 @@ let characterSize = 15;
 let streams = [];
 let character_array = [];
 
+function windowResized() {
+	resizeCanvas(clientWidth, clientheight);
+}
+
 function setup() {
 
 	let clientHeight = document.getElementById('banner').clientHeight;
