@@ -56,4 +56,13 @@
   color: grey;
 }
 
-
+.placeholder {
+  height: auto; 
+  width: 100%;
+  background-color: var(--gunmetal);
+  text-align: center;
+  margin: 20% auto;
+  font-family: "Source Code Pro";
+  font-size: 40px;
+  color: white;
+}
