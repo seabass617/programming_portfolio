@@ -107,7 +107,7 @@
 }
 
 /* Regular Laptop */
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   #webdev, #createprog, #artist {
     font-size:30px;
   }

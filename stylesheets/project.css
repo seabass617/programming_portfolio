@@ -1,9 +1,9 @@
-#test-project-window {
+#project-window {
   height: auto;
   background-color: black;
 }
 
-#test-project-container{
+#project-container{
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
   width: 70%;
   margin: 0 auto;
 }
-#test-project-container h3 {
+#project-container h3 {
   color: #f2deea;
   font-size: 60px;
   width: 50%;
@@ -23,14 +23,14 @@
 }
 
 /* project card */
-.test-project-card {
+.project-card {
   width: 70%;
 }
 
 
 /* project image */
 
-.test-project-image{
+.project-image{
   width:250px;
   height:250px;
   object-fit: cover;
@@ -41,50 +41,50 @@
 
 
 /* project text */
-.test-project-info {
+.project-info {
   text-align: left;
   margin-left: 40px;
   font-family: "Source Code Pro";
   width: 50%;
 }
 
-.test-project-title {
+.project-title {
   color: white;
   font-weight: bold;
 }
 
-.test-project-title:hover {
+.project-title:hover {
   color: var(--steelblue);
   font-weight: bold;
 }
 
-.test-project-type {
+.project-type {
   color:white;
   opacity: .8;
   margin-bottom: 20px;
 }
 
-.test-project-description {
+.project-description {
   color:white; 
   opacity: .9;
   font-size: 16px;
 }
 
 @media (max-width: 1024px) {
-  .test-project-image {
+  .project-image {
     width: 200px;
     height: 200px;
   }
 }
 
 @media (max-width: 768px) {
-  #test-project-container h3{
+  #project-container h3{
     width: 65%;
   }
 }
 
-@media (max-width: 375px) {
-  #test-project-container h3{
+@media (max-width: 425px) {
+  #project-container h3{
     font-size: 31px;
     width: 70%;
   }
@@ -93,24 +93,24 @@
     width: 80%;
   }
 
-  .test-project-title {
+  .project-title {
     font-size: 14px;
   }
 
-  .test-project-type {
+  .project-type {
     font-size: 14px;
   }
 
-  .test-project-image {
+  .project-image {
     width: 115px;
     height: 115px;
   }
 
-  .test-project-description {
+  .project-description {
     display: none;
   }
 
-  .test-project-info {
+  .project-info {
     margin-left: 15px;
   }
 

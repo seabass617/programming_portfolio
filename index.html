@@ -2,7 +2,7 @@
 <html lang="">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Sebastian Viasus</title>
 
   <!-- Bootstrap -->
@@ -13,10 +13,10 @@
 
   <!-- p5 -->
   <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
-  <script src="sketch.js"></script>
+  <script src="lib/sketch.js"></script>
 
   <!--Javascript-->
-  <script src="about.js"></script>
+  <script src="lib/about.js"></script>
 
   <!-- Animate on Scroll -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -32,18 +32,15 @@
       <!-- BANNER -->
       <!------------>
       <section id="banner" class="">
-    <!-- <img class = "profile-pic" src="images/Seattle Profile Picture.jpg" alt="Face shot of Sebastian"> -->
-    <div class="title-container">
-      <h2 id ="webdev"> web developer </h2>
-      <h2 id ="createprog"> creative programmer </h2>
-      <h2 id = "artist"> artist </h2>
-    </div>
+      <!-- <img class = "profile-pic" src="images/Seattle Profile Picture.jpg" alt="Face shot of Sebastian"> -->
+        <div class="title-container">
+          <h2 id ="webdev"> web developer </h2>
+          <h2 id ="createprog"> creative programmer </h2>
+          <h2 id = "artist"> artist </h2>
+        </div>
       </section>
 
       
-
-
-
       <!----------->
       <!-- ABOUT -->
       <!----------->
@@ -72,7 +69,7 @@
           parts. In my free time, I like to rock climb, cook, and play guitar. 
           </p>
           <p class="mini-text">
-          If you want to learn more about me, please take a look at my <a href="#test-project-container" class="link">projects</a> and <a href="pages/cv-page.html" class="link">cv</a>. 
+          If you want to learn more about me, please take a look at my <a href="#project-container" class="link">projects</a> and <a href="pages/cv-page.html" class="link">cv</a>. 
           </p>
           <p class="mini-text">
           I’m also currently on the job hunt looking for front end and creative coding opportunities!
@@ -81,134 +78,98 @@
         </div>
       </section>
 
-
-      <!-------------->
-      <!-- PROJECTS -->
-      <!-------------->
-      <!-- <section class="project-window " id="project-section">
-        <div class="container project-container">
-          <h3 class="play-font mb-5"><u>projects</u></h3>
-          <div class="row ">
-            <div class="col-lg-3 ">
-              <a href="pages/project-slumbot.html"><div class="project-image-slumbot mb-3 mt-3 mr-2">Slumbot</div></a>
-            </div>
-            <div class="col-lg-3 ">
-              <a href="pages/project-dream-multiverse.html"><div class="project-image-multiverse mb-3 mt-3 mr-2">Dream Multiverse</div></a>
-            </div>
-            <div class="col-lg-3 ">
-              <a href="pages/project-rpm.html"><div class="project-image-rpm mb-3 mt-3 mr-2">RPM Controller</div></a>
-            </div>
-            <div class="col-lg-3 ">
-              <a href="pages/project-indi.html"><div class="project-image-indigenius mb-3 mt-3 mr-2">Indigenius</div></a>
-            </div>
-            <div class="col-lg-3 ">
-              <a href="pages/project-matrix.html"><div class="project-image-matrix mb-3 mt-3 mr-2">Matrix</div></a>
-            </div>
-            <div class="col-lg-3 ">
-              <a href="pages/project-glass.html"><div class="project-image-glass mb-3 mt-3 mr-2">Glass</div></a>
-            </div>
-            <div class="col-lg-3 ">
-              <a href="pages/project-multiples.html"><div class="project-image-multiples mb-3 mt-3 mr-2">Armadillidiidae Hirundea</div></a>
-            </div>
-            <div class="col-lg-3 ">
-              <a href="pages/project-xromm.html"><div class="project-image-xromm mb-3 mt-3 mr-2"> Research: XROMM Cane Toads</div></a>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
-      <!----------->
-      <!-- test Section -->
-      <!----------->
-      <section id="test-project-window" class="">
-        <container id="test-project-container" class="">
+      <!------------->
+      <!-- Project -->
+      <!------------->
+      <section id="project-window" class="">
+        <container id="project-container" class="">
           <h3 class="play-font">projects</h3>
           <div id="card-container" class="row">
 
-            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-5 mb-4 ">
-                <img class="test-project-image " src="images/indigenius-thumbnail.png" alt="project-image">
-                <div class="test-project-info">
-                  <a href="pages/project-indi.html"><h4 class="test-project-title"> Indigenius</h4></a>
-                  <h5 class="test-project-type">Web Development</h5>
-                  <p class="test-project-description">Connecting authentic artisans to ethical consumers around the globe</p>
+                <img class="project-image " src="images/indigenius-thumbnail.png" alt="project-image">
+                <div class="project-info">
+                  <a href="pages/project-indi.html"><h4 class="project-title"> Indigenius</h4></a>
+                  <h5 class="project-type">Web Development</h5>
+                  <p class="project-description">Connecting authentic artisans to ethical consumers around the globe</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
-                <img class="test-project-image " src="images/Dream Mutliverse Vacation.png" alt="project-image">
-                <div class="test-project-info">
-                <a href="pages/project-dream-multiverse.html"><h4 class="test-project-title">Dream Mutiverse Vacation </h4></a>
-                  <h5 class="test-project-type">Web Development</h5>
-                  <p class="test-project-description">Choose a dream vacation to one of the many multiverses in the Rick & Morty Universe!</p>
+                <img class="project-image " src="images/Dream Mutliverse Vacation.png" alt="project-image">
+                <div class="project-info">
+                <a href="pages/project-dream-multiverse.html"><h4 class="project-title">Dream Mutiverse Vacation </h4></a>
+                  <h5 class="project-type">Web Development</h5>
+                  <p class="project-description">Choose a dream vacation to one of the many multiverses in the Rick & Morty Universe!</p>
                 </div>
               </div>
             </div>
             
-            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
-                <img class="test-project-image " src="images/matrix.png" alt="project-image">
-                <div class="test-project-info">
-                  <a href="pages/project-matrix.html"><h4 class="test-project-title">Matrix Smulation</h4></a>
-                  <h5 class="test-project-type">Creative Programming</h5>
-                  <p class="test-project-description">An exploration of OOP through the visual lens of p5.js</p>
+                <img class="project-image " src="images/matrix.png" alt="project-image">
+                <div class="project-info">
+                  <a href="pages/project-matrix.html"><h4 class="project-title">Matrix Smulation</h4></a>
+                  <h5 class="project-type">Creative Programming</h5>
+                  <p class="project-description">An exploration of OOP through the visual lens of p5.js</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
-                <img class="test-project-image " src="images/KZA9128.jpg" alt="project-image">
-                <div class="test-project-info">
-                  <a href="pages/project-rpm.html"><h4 class="test-project-title">RPM Contoller</h4></a>
-                  <h5 class="test-project-type">Programming, Engineering</h5>
-                  <p class="test-project-description">An RPM controller used to model the oceanic flow of Europa</p>
+                <img class="project-image " src="images/KZA9128.jpg" alt="project-image">
+                <div class="project-info">
+                  <a href="pages/project-rpm.html"><h4 class="project-title">RPM Contoller</h4></a>
+                  <h5 class="project-type">Programming, Engineering</h5>
+                  <p class="project-description">An RPM controller used to model the oceanic flow of Europa</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
-                <img class="test-project-image " src="images/xromm/Toad Radiounla Clean (resized).jpg" alt="project-image">
-                <div class="test-project-info">
-                  <a href="pages/project-xromm.html"><h4 class="test-project-title">XROMM: Cane Toad Biomechanics</h4></a>
-                  <h5 class="test-project-type">Modeling & Computer Animation</h5>
-                  <p class="test-project-description">Animating cane toad bones in order to study limb mechanics</p>
+                <img class="project-image " src="images/xromm/Toad Radiounla Clean (resized).jpg" alt="project-image">
+                <div class="project-info">
+                  <a href="pages/project-xromm.html"><h4 class="project-title">XROMM: Cane Toad Biomechanics</h4></a>
+                  <h5 class="project-type">Modeling & Computer Animation</h5>
+                  <p class="project-description">Animating cane toad bones in order to study limb mechanics</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
-                <img class="test-project-image " src="images/Carrie Bowl 3-3.jpg" alt="project-image">
-                <div class="test-project-info">
-                  <a href="pages/project-glass.html"><h4 class="test-project-title">Glass</h4></a>
-                  <h5 class="test-project-type">Soft Glass & Lampworking</h5>
-                  <p class="test-project-description">An exploration of form, color, and culture through the medium of glass</p>
+                <img class="project-image " src="images/Carrie Bowl 3-3.jpg" alt="project-image">
+                <div class="project-info">
+                  <a href="pages/project-glass.html"><h4 class="project-title">Glass</h4></a>
+                  <h5 class="project-type">Soft Glass & Lampworking</h5>
+                  <p class="project-description">An exploration of form, color, and culture through the medium of glass</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 test-project-card mb-3 " data-aos="fade-right">
+            <div class="col-12 project-card mb-3 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
-                <img class="test-project-image " src="images/Slumbot 1.2.jpg" alt="project-image">
-                <div class="test-project-info">
-                  <a href="pages/project-slumbot.html"><h4 class="test-project-title">Slumbot</h4></a>
-                  <h5 class="test-project-type">Sculpture</h5>
-                  <p class="test-project-description">A passion project driven by my interest in cars, dystopian futures, and recycled materials</p>
+                <img class="project-image " src="images/Slumbot 1.2.jpg" alt="project-image">
+                <div class="project-info">
+                  <a href="pages/project-slumbot.html"><h4 class="project-title">Slumbot</h4></a>
+                  <h5 class="project-type">Sculpture</h5>
+                  <p class="project-description">A passion project driven by my interest in cars, dystopian futures, and recycled materials</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12 test-project-card mb-5 " data-aos="fade-right">
+            <div class="col-12 project-card mb-5 " data-aos="fade-right">
               <div class="row justify-content-center align-items-center mt-3 mb-4 ">
-                <img class="test-project-image " src="images/Armadillidiidae Hirundea 1.0.JPG" alt="project-image">
-                <div class="test-project-info">
-                  <a href="pages/project-multiples.html"><h4 class="test-project-title">Armadilldiidae Hirudinea</h4></a>
-                  <h5 class="test-project-type">Sculpture</h5>
-                  <p class="test-project-description">A multiples project focused on the power of numbers and an interest in biology</p>
+                <img class="project-image " src="images/Armadillidiidae Hirundea 1.0.JPG" alt="project-image">
+                <div class="project-info">
+                  <a href="pages/project-multiples.html"><h4 class="project-title">Armadilldiidae Hirudinea</h4></a>
+                  <h5 class="project-type">Sculpture</h5>
+                  <p class="project-description">A multiples project focused on the power of numbers and an interest in biology</p>
                 </div>
               </div>
             </div>
