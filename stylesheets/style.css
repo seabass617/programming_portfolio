@@ -6,6 +6,7 @@
 @import "contact.css";
 @import "components/avatar.css";
 @import "components/stackbox.css";
+@import "components/loader.css";
 @import "project.css";
 
 @import "layouts/project-page.css";
@@ -38,7 +39,6 @@
     --skypink: #f2deea;
     --darkpurple: #4A1942;
     --gray: #D1DEDE;
-
   }
 
   body {
@@ -46,6 +46,7 @@
     margin: 0;
     /* overflow: hidden; */
     background: black;
+    /* position: relative; */
   }
 
   p {
