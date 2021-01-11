@@ -1,0 +1,104 @@
+<!-- Welcome to the p5 boiler plate! Here is your HTML file  -->
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Sebastian Viasus</title>
+  <link rel="shortcut icon" type="image/png" href="../images/favicon-32x32.png"/>
+  
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <div id="project-page-header" class="">
+        <a href="../index.html#project-window" class="mini-text back-button">go back to projects</a>
+      </div>
+
+      <div class="container-fluid project-page-container">
+        <div class="row mt-5">
+          <div class="col-lg-8 project-photos">
+            <img src="../images/School o' Fish/Fish Ecosystem.png" alt="Autonomous Fish School Image" class="project-page-image mt-2 mb-5">
+            <img src="../images/School o' Fish/sharks & minnows.png" alt="Shark navigating thorough minnows Image" class="project-page-image mb-2">
+            <img src="../images/School o' Fish/Goldfish Tail.png" alt="Shark navigating thorough minnows Image" class="project-page-image mb-2">
+            <img src="../images/School o' Fish/goldfish food.png" alt="Shark navigating thorough minnows Image" class="project-page-image mb-2">
+            <img src="../images/School o' Fish/goldfish.png" alt="Shark navigating thorough minnows Image" class="project-page-image mb-2">
+            
+          </div>
+
+          <div class="col-lg-4 project-description">
+            <h3 class="bold-text pl-0 pr-0">Bait Ball Ecosystem</h3>
+            <p class="mini-text pt-2 pl-0 pr-0">Technology: p5.js, processing</p>
+            <a target="_blank" href="https://seabass617.github.io/Ecosystem-Project-5-Autonomy/"><p class="mini-text pl-0 pr-0 link">View Live Project</p></a>
+            <h1 class="mini-text pl-0 pr-0 pt-0"><a target="_blank" href="https://github.com/seabass617/Ecosystem-Project-5-Autonomy/tree/gh-pages"><p class="mini-text link">View Code</p></a></h1>
+
+
+            <p class="mini-text"> The goal of this project was to explore real life animal behaviors by recreating the system of a predatory fish meadering through a bait ball.
+              Each fish in this system is an autonomous agent, aware of its surroundings
+              and able to make decisions based on that environment. Schooling behavior was achieved using Craig Reynolds' flocking model,
+               in which each fish has three key behaviors, separation (don't bump into other fish), 
+              alignment ( go in the same direction as the school), and cohesion ( stay close to other fish).
+               Fear behavior takes from the seperation algorithm, just that now you are really not trying to bump into a shark! Interactive
+              sliders were added so that a user is able to see how different weights on forces of these behaviors changes the school behavior.  
+            </p>
+
+            <p class="mini-text">
+              From a development and design standpoint, this project reinforced the 
+              value of breaking problems down into bit sized chunks and creating dedicated test environments.
+              Especially when dealing multiple autonomous objects it can become very difficult to track
+              down a problem when you have a bunch of fish interacting with one another!
+            </p>
+
+            <p class="mini-text">
+              You can find a live version of each iteration of the project alongside with its respective source code below! 
+            </p>
+
+            <a target="_blank" href="https://seabass617.github.io/Ecosystem-Project-5-Autonomy/"><p class="mini-text link">Ecosystem 5: Bait Ball</p></a>
+            <a target="_blank" href="https://github.com/seabass617/Ecosystem-Project-5-Autonomy/tree/gh-pages"><p class="mini-text link">View Code</p></a>
+            <a target="_blank" href="https://seabass617.github.io/Ecosystem-Project-4-Sharks---Minnows/"><p class="mini-text link">Ecosystem 4: Shark Attack</p></a>
+            <a target="_blank" href="https://github.com/seabass617/Ecosystem-Project-4-Sharks---Minnows/tree/gh-pages"><p class="mini-text link">View Code</p></a>
+            <a target="_blank" href="https://seabass617.github.io/Ecosystem-Project-3-Goldfish-Tail/"><p class="mini-text link">Ecosystem 3: Fish Tail</p></a>
+            <a target="_blank" href="https://github.com/seabass617/Ecosystem-Project-3-Goldfish-Tail/tree/gh-pages"><p class="mini-text link">View Code</p></a>
+            <a target="_blank" href="https://seabass617.github.io/Ecosystem-Project-2-Goldfish-Food/"><p class="mini-text link">Ecosystem 2: Fish Food</p></a>
+            <a target="_blank" href="https://github.com/seabass617/Ecosystem-Project-2-Goldfish-Food"><p class="mini-text link">View Code</p></a>
+            <a target="_blank" href="https://seabass617.github.io/Ecosystem-Project-1-Goldfish/"><p class="mini-text link">Ecosystem 1: Goldfish</p></a>
+            <a target="_blank" href="https://github.com/seabass617/Ecosystem-Project-1-Goldfish/tree/gh-pages"><p class="mini-text link">View Code</p></a>
+
+            <p class="mini-text">This project was created using topics learned from Dan Shiffman's "The Nature of Code"</p>
+            <a target="_blank" href="https://natureofcode.com/book/"><p class="mini-text link">The Nature of Code</p></a>
+            
+            <p class="mini-text">Year: 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer"><p>Copyright & Design © Sebastian Viasus 2020</p></div>
+
+  </div>
+  
+
+
+
+
+  <!-- <div class="footer">
+    <p>CV</p>
+    <p>Github</p>
+    <p>Contact</p>
+  </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
