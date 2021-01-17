@@ -24,9 +24,23 @@
   text-align: center;
 }
 
+.project-page-description {
+  text-align: left;
+  color: white; 
+  opacity: .9;
+  font-size: 16px;
+}
+
 .project-description {
   text-align: left;
 }
+
+/* .project-description {
+  color: white; 
+  opacity: .9;
+  font-size: 16px;
+} */
+
 
 .project-page-image { 
   width: 100%;
@@ -38,13 +52,30 @@
   font-family: "Source Code Pro";
 }
 
+.project-page-description h3 {
+  border-bottom: 1px white solid;
+  padding: 10px;
+  font-family: "Source Code Pro";
+}
+
+
 .project-description h1 {
   border-bottom: 1px white solid;
   padding: 10px;
   text-align: left;
 }
 
+.project-page-description h1 {
+  border-bottom: 1px white solid;
+  padding: 10px;
+  text-align: left;
+}
+
 .project-description p { 
+  text-align: left;
+}
+
+.project-page-description p { 
   text-align: left;
 }
 
