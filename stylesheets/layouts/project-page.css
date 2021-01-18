@@ -27,7 +27,7 @@
 .project-page-description {
   text-align: left;
   color: white; 
-  opacity: .9;
+  /* opacity: .9; */
   font-size: 16px;
 }
 
