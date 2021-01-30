@@ -1,0 +1,73 @@
+<!-- Welcome to the p5 boiler plate! Here is your HTML file  -->
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Sebastian Viasus</title>
+  <link rel="shortcut icon" type="image/png" href="../images/favicon-32x32.png"/>
+
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <div id="project-page-header" class="">
+        <a href="../index.html#project-window" class="mini-text back-button">back to projects</a>
+      </div>
+    
+      <div class="container-fluid project-page-container ">
+        <div class="row mt-5">
+          <div class="col-lg-8 project-photos">
+            <img src="../images/raindrops/raindrop field.png" alt="Raindrop Image/Video" class="project-page-image mt-3 mb-4">
+            <img src="../images/raindrops/raindrop field.png" alt="Raindrop Image/Video" class="project-page-image mb-4">
+          </div>
+        
+          <div class="col-lg-4 project-page-description">
+            <h3 class="bold-text pl-0 pr-0">Raindrops</h3>
+            <p class="mini-text pt-2 pl-0 pr-0">Technology: p5.js</p>
+            <a target="_blank" href="https://seabass617.github.io/Raindrop/"><p class="mini-text pl-0 pr-0 link">View Live Project</p></a>
+            <h1 class="mini-text pl-0 pr-0 pt-0"><a target="_blank" href="https://github.com/seabass617/Raindrop/tree/gh-pages"><p class="mini-text link">View Code</p></a></h1>
+
+            <p class="mini-text"><b id="subheader">Brief: </b>The goal of this project was to build a digital experience centered around the theme of raindrops hitting a puddle of water.</p>
+            <p class="mini-text">
+              <b id="subheader">Process: </b>Like most of my projects, I started off design with a pen and paper. I established key components, a raindrop object, and a users interactions.
+              I first built the raindrop object and its properties, such as location, propogation speed, and radius, then built respective methods to update and display each drop.
+              Once I had a simple raindrop working, I moved on to creating a system of raindrops. Upon seeing the system of raindrops, I then focused on polishing off each drop and system settings so that I could get a natural effect. Once an ambient system was built, I asked questions about how this could become interactive without taking away its peaceful nature when untouched? I decided to take a departure from
+              my traditional slap a parameter slider and call it "interactive" style and move towards a more aesthetic approach by only allowing for mouse click or touch interactions, which freed the screen of an ugly bits.
+            </p>
+            <p class="mini-text">
+              <b id="subheader">Obstacles: </b> I encoutered a few road blocks during the development of this program. The first was making sure that I wasn't creating raindrop object without destorying them. You don't 
+              want to be storing raindrops that don't exist on the screen anymore! To combat this, each raindrop has a lifespan, the program is constantly checking to see if a drop is alive (displayed on the screen),
+              and if it isn't, it's removed from the system of raindrops array. Another obstactle was thinking about how to make the raindrops as realistic as possible. It took a little bit of thinking and imagination, but I determinded
+              that the idea of dissipation and timing were key elements that stuck out to me when I observed rain. I ended up mapping the opacity of the droplet ripple to its radius so as the drop propogated, it would become fainter, giving this idea of a loss of
+              energy. I then looked at the system as a whole and thought about the rate of raindrops falling on the screen. In nature, this rate isn't constant, nor are these different rates totally random. It doesn't just go from a drizzle to a downpour in an
+              instant (unless you're in Boston), and even in less drastic situations when a rainfall seems constant, some fluctuation is always present. I addressed this issue by associating the rate of drops falling to a perlin noise range, delivering natural
+              randomness over time. 
+            
+            <p class="mini-text">Year: 2021</p>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"><p>Copyright & Design © Sebastian Viasus 2020</p></div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
