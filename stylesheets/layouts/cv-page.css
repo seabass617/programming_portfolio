@@ -104,6 +104,10 @@ p.cv-description {
 
   }
 
+  #contact-icons{
+    width: 50% !important;
+  }
+
   
 }
 
@@ -113,6 +117,13 @@ p.cv-description {
   }
   
 }
+
+@media (max-width: 992px) {
+  #contact-icons{
+    width: 60%;
+  }
+}
+
 
 
 

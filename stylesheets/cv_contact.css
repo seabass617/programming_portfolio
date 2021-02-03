@@ -8,6 +8,7 @@
   width: 100%;
   text-align: center;
   background-color: black;
+  border-top: 10px double var(--gunmetal);
   /* border: 2px solid red; */
 }
 
